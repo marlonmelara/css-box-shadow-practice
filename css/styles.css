@@ -14,7 +14,7 @@ body {
 .card {
   width: 18.75rem;
   margin: 2rem auto;
-  padding: 0 0 1.875rem;
+  padding: 0 0 1.75rem;
   color: #333;
   border-radius: 5px;
 }
@@ -26,7 +26,7 @@ body {
 .card--2 {
   background: rgb(59, 130, 246); /** Fallback for old browsers */
   background: linear-gradient(rgb(75, 85, 99), rgb(17, 24, 39));
-  box-shadow: 5px 6px 11px 0px rgba(116, 34, 9, 0.75);
+  box-shadow: 5px 6px 10px 0px rgba(116, 34, 9, 0.75);
 }
 
 /** Reset margin and padding as needed */
@@ -41,7 +41,7 @@ body {
   height: 11.25rem;
   border-radius: 5px 5px 0 0;
   object-fit: cover;
-  box-shadow: 3px 3px 40px rgba (0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.75);
 }
 
 .card__text-container {
@@ -51,7 +51,7 @@ body {
 }
 
 .card__text-container__h2 {
-  margin: 1.25rem 0 0.625rem;
+  margin: 1.25rem 0 0.5rem;
   text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
@@ -73,7 +73,7 @@ body {
   width: 10rem;
   margin-inline: auto;
   margin-top: 1.25rem;
-  padding: 0.625rem 0;
+  padding: 0.5rem 0;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -85,6 +85,5 @@ body {
 
 .card__cta:hover {
   color: #ccc;
-
   transform: scale(1.2, 1.2);
 }
