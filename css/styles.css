@@ -37,7 +37,7 @@ body {
 
 .card__text-container {
   width: 90%;
-  margin: 0 auto;
+  margin-inline: auto; /** Use esta propiedad en lugar de margin: 0 auto -- Puede ser que no funcione en los navegadores más antiguos */
   overflow: hidden;
 }
 
@@ -62,7 +62,7 @@ body {
 .card__cta {
   display: block;
   width: 10rem;
-  margin: 0 auto;
+  margin-inline: auto; /** Use esta propiedad en lugar de margin: 0 auto -- Puede ser que no funcione en los navegadores más antiguos */
   margin-top: 1.25rem;
   padding: 0.625rem 0;
   text-align: center;
